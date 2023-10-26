@@ -1,0 +1,107 @@
+
+
+
+
+@font-face {
+    font-family: 'Young Serif', serif;
+    src: url(/Fonts/YoungSerif-Regular.ttf) format("truetype");
+}
+
+h2{
+    background-color: darkseagreen;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+/* ID Selector */
+#p1{
+    background-color: darkorange;
+    font-family: 'Young Serif', serif;
+}
+/* Class Selector */
+.paragraph{
+    background-color: dodgerblue;
+    font-family: Young Serif, serif;
+}
+
+/* tag selector */
+h1{
+background-color: crimson;
+display: inline;
+}
+
+p{
+    color: deeppink;
+}
+
+/* group selector*/
+.heading3, .paragraph1, h2 {
+    background-color: blue;
+}
+
+/*universal selector*/
+*{
+    font-size: xx-large
+}
+
+/*element.class*/
+p.text{
+    background-color: hotpink;
+    font-variant: small-caps;
+}
+
+.newParagraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: small;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: right;
+    line-height:60px;
+    letter-spacing:6px;
+    word-spacing: 5px;
+    text-decoration: underline;
+}
+
+.newParagraph2{
+    font: 30px bold 'Arial Narrow Bold', sans-serif;
+    text-indent: 90px;
+    
+}
+
+/* Class Task */
+
+.TP1, .TP2{
+    font-size: 20px;
+    font-family: fantasy;
+    color: forestgreen;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+}
+
+.TP3, .TP4, .TP5{
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+/* Colour
+name
+hedadecimal
+RGB
+HSL - Hue Saturation, Lightness
+*/
+
+body{
+background-image: url(https://m.media-amazon.com/images/I/81cPKedf8pL._AC_UF1000,1000_QL80_.jpg);
+}
+
+.newParagraph2{
+/*color: #7b68ee;*/
+/*color: mediumslateblue;*/
+color: purple;
+/*background-color: hsla(250, 48%, 48%, 0.6)*/
+background-color: rgba(233, 150, 73, 0.6);
+}

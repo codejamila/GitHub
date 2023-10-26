@@ -1,0 +1,60 @@
+
+
+/*  
+Static
+Relative
+Fixed
+Absolute
+Sticky
+*/
+
+.parent{
+    background-color: rgb(251, 0, 255);
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.first{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(229, 255, 0);
+    position: relative;
+    top: 30px;
+    margin-bottom: 5px;
+}
+
+.second{
+    height: 100%;
+    width: 200px;
+    background-color: rgb(123, 0, 246);
+    position: relative;
+    top: 40px;
+    left: 50px;
+    z-index: 3;
+    
+}
+
+.third{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(17, 255, 0);
+    z-index: -1;
+}
+
+.fourth{
+    background-color: rgb(0, 255, 229);
+    position: fixed;
+    top: 400px;
+    left: 30px;
+}
+
+.stick{
+    background-color: rgb(17, 255, 0);
+    position: sticky;
+    top: 0%;
+}
+
+/*
+z-index:
+- the higher the z-index value for an element will have the highest overlapping property
+*/

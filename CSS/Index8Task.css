@@ -1,0 +1,108 @@
+
+
+
+/*.square{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    0%{
+    }
+
+    25%{
+        margin-left: 400px;
+        margin-top: 0px;
+        background-color: purple;
+    }
+
+    50%{
+        margin-top: 200px;
+        margin-left: 400px;
+        background-color: yellow;
+    }
+
+    75%{
+        margin-top: 200px;
+        margin-left: 0px;
+        background-color: deepskyblue;
+    }
+
+
+    100%{
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: orange;
+    }
+}*/
+
+/*
+Rectangle
+*/
+
+.rectangle{
+    height: 200px;
+    width: 400px;
+    background-color: crimson;
+    transform: rotate(30deg);
+}
+
+.rectangle2{
+    height: 200px;
+    width: 400px;
+
+    background-color: crimson;
+    transform: skewx(30deg);
+}
+
+/*
+T Shape
+*/
+
+.square2{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    0%{}
+    25%{
+        margin-left: 400px;
+        margin-top: 0px;
+        background-color: deepskyblue;
+    }
+
+    40%{
+        margin-top: 0px;
+        margin-left: 200px;
+        background-color: yellow;
+    }
+
+    65%{
+        margin-top: 200px;
+        margin-left: 200px;
+        background-color: deepskyblue;
+    }
+
+    85%{
+        margin-top: 0px;
+        margin-left: 200px;
+        background-color: yellow;
+    }
+
+    100%{
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: deepskyblue;
+    }
+}

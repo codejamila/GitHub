@@ -1,0 +1,46 @@
+
+
+
+.flex-container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    flex-basis: 100%;
+    font-size: 50px;
+    color: lightpink;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    word-spacing: 30px;
+    padding: 40px;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.col-1 {
+    flex-basis: 5%;
+    font-size: 30px;
+    color: palevioletred;
+    background-color: darkgrey;
+    padding: 40px;
+    position: 0%;
+}
+
+.col-4 {
+    flex-basis: 60%;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: grey;
+    padding: 20px;
+}
+
+@media (max-width:700px) {
+    .col-1, .col-4, .col-6 {
+        flex-basis: 100%;}
+    }

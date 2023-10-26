@@ -1,0 +1,30 @@
+
+
+
+.div1{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 350px;
+    top: 70px;
+}
+
+.div2{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    right: 50px;
+    top: 150px;
+}
+
+.div3{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    right: 450px;
+    top: 250px;
+}
+
+img:hover{
+    z-index: 10;
+}

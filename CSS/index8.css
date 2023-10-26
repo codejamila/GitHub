@@ -1,0 +1,83 @@
+
+
+/*
+keyframe
+transition
+*/
+
+
+
+.transition{
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+    transition: margin-left 2s, background-color 0s, border-radius 2s;
+    transition: all 1s;
+}
+
+.transition:hover{
+    width: 400px;
+    background-color: blueviolet;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+.animation{
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    animation-name: move;
+    animation-duration: 2s;
+    /*animation-iteration-count: infinite;*/
+    animation-direction: reverse;
+    /*animation-delay: 5s;*/
+}
+
+/*@keyframes move {
+    from{
+        margin: 0px
+    }
+    to{
+        margin:200px;
+    }
+}*/
+
+@keyframes move {
+    0%{}
+    20%{
+        margin-left: 100px;
+        margin-top: 0px;
+        background-color: purple;
+    }
+    40%{
+        margin-left: 200px;
+        margin-top: 100px;
+        background-color: yellow;
+    }
+    60%{
+        margin-left: 200px;
+        margin-top: 100px;
+        background-color: deepskyblue;
+    }
+    100%{
+        margin-left: 0px;
+        margin-top: 0px;
+        background-color: orange;
+    }
+}
+
+.transform{
+    background-color: green;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    /*transform: rotate(90deg);*/
+    transition: all 2s;
+
+}
+
+.transform:hover{
+    transform: rotate(180deg);
+    transform: skewY(40deg 40deg);
+
+}

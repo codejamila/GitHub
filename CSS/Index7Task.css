@@ -1,0 +1,54 @@
+
+:root{
+    --maincolor: pink;
+    --color: brown;
+    --borderStyle: 5px dotted brown;
+}
+
+
+body{
+    background-color: var(--maincolor);
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+
+header{
+    background-color: whitesmoke;
+    grid-column: 1/4;
+    color: var(--color);
+    border: var(--borderStyle)
+}    
+
+nav{
+    background-color: lightblue;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    color: var(--color);
+    border: var(--borderStyle)
+}
+
+main{
+    background-color: lightgreen;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    color: var(--color);
+    border: var(--borderStyle)
+}
+
+section{
+    background-color: lightsalmon;
+    grid-column: 3/4;
+    grid-row: 2/4;
+    color: var(--color);
+    border: var(--borderStyle)
+}
+
+footer{
+    background-color: lightgoldenrodyellow;
+    grid-column: 1/4;
+    grid-row: 4/4;
+    color: var(--color);
+    border: var(--borderStyle);
+}

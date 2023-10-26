@@ -1,0 +1,50 @@
+
+/* 
+
+Topics
+
+Pseudo-Elements
+
+Pseudo-Classes
+
+nth-child Selector
+
+Attribute Selectors
+
+*/
+
+h1{
+    font-size: 70px;
+    color: black;
+    text-align: center;
+}
+
+[lang|="en-uk"] {
+    color: black;
+    background: white;
+    border: 2px solid black;
+    padding: 20px 20px;
+    font-size: 50px;
+}
+
+[lang|="ro"] {
+    color: white;
+    background: blue;
+    padding: 20px 20px;
+    font-size: 50px;
+}
+
+[lang|="fr"] {
+    color: black;
+    background: red;
+    padding: 20px 20px;
+    font-size: 50px;
+}
+
+[lang|="it"] {
+    color: black;
+    background: green;
+    padding: 20px 20px;
+    font-size: 50px;
+}
+

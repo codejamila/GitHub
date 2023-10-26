@@ -1,0 +1,102 @@
+
+/*
+!Task
+Create a div with 400 width and height
+give a background colour whatever you want.
+give a background image and resize the background image
+The background image should have 10px space from the top and left of the div
+*/
+
+body{
+    background-color: palevioletred;
+}
+
+.divT{
+    width: 400px;
+    height: 400px;
+    border: 5px solid;
+    background-color: rgb(112, 222, 255);
+    background-image: url(/Penguin.jpeg);
+    background-size: 400px;
+    background-position: top 10px left 10px;
+}
+
+.div5{
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    border-style: dotted;
+}
+
+.div6{
+    width: 300px;
+    height: 300px;
+    border: 10px solid rgb(0, 81, 255);
+    border-top-right-radius: 40% 20%;
+    border-bottom-left-radius: 40% 20%;
+    border-top-left-radius: 40% 20%;
+    border-bottom-right-radius: 40% 20%;
+    background-image: ;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border: 20px solid gold;
+    border-style: dotted;
+    border-radius: 50%;
+}
+
+button{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.box {
+    width:400px;
+    height:130px;
+    border: 5px solid;
+     border-top-right-radius: 10% 20%;
+        border-bottom-left-radius: 10% 20%;
+        border-top-left-radius: 10% 20%;
+        border-bottom-right-radius: 10% 20%;
+    background-image: url(balloons.jpg);
+    background-size: contain;
+    }
+    
+    /* Assignment */
+
+    /* 1 */
+    .box {
+        border: 5px solid black;
+        border-radius: 10px;
+        background-image: url(balloons.jpg);
+        background-size: cover;
+        }
+           
+    h2{
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        text-align: left;
+        font-size: xx-larger;
+        }        
+    
+    /* 2 */
+    .box {
+        border:5px solid lightblue;
+        border-radius:20px 0 40px;
+        background-image:url('star.png'), url('star.png');
+        background-repeat:no-repeat, repeat-y;
+        background-position:left 10px center, right 10px center;
+        text-align:center;
+        }
+         
+    h2 {
+        margin:0px 15px;
+        }

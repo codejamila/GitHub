@@ -1,0 +1,121 @@
+
+
+
+
+
+
+
+
+
+
+.div1{
+    width: 350px;
+    border: 3px solid pink;
+    padding: 20px;
+    margin: auto;
+}
+
+.div2{
+    width: 350px;
+    border: 3px solid lightblue;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+   /* margin: top right bottom left; */
+    margin: 10px 5px 10px 5px;
+    /* padding: 10px 20px 10px 20px; */
+    padding: 10px 30px; /* top/bottom right/left */
+    text-align: justify;
+}
+
+
+.div3{
+    width: 200px;
+    border: 3px solid pink;
+    padding: 10px 20px;
+    /* margin: 50px; */
+}
+
+.div4{
+    width: 200px;
+    border: 3px solid lightblue;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+   /* margin: top right bottom left; */
+   /* margin: 10px 5px 10px 5px; */
+    /* padding: 10px 20px 10px 20px; */
+    padding: 10px 20px; /* top/bottom right/left */
+    text-align: justify;
+}
+
+/* 
+
+Float: position elements to the left or right of one another 
+Clear: remove float from element
+
+*/
+div{
+    float: right;
+}
+
+p{
+    clear: both;
+}
+
+/*
+Display:
+        - inline - make an element as inline - width and height property won't have any effect
+        - block - make an element as a block element
+        - block - inline - similar to the inline but width and height property will have effect
+*/
+
+.div5, .div6{
+    clear: both;
+    border: 5px solid black;
+    margin: 5px;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+    
+/* styling HTML link
+a: link - a normal link - unvisited
+a: visited - a link that the user has visited
+a: hover - a link when the users mouse is over it
+*/
+
+a{
+    font-size: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: crimson;
+    padding: 10px 20px;
+}
+
+a:hover{
+    background-color: lightgreen;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+a:active{
+    color: darkorange;
+    font-size: 20px;
+}
+
+/* styling button */
+.login{
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    background-color: pink;
+    color: black;
+    border-radius: 20px;
+}
+
+.login:hover{
+    background-color: brown;
+    color: beige;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+
+
+
+body{
+    border-radius: dashed 30px black;
+}
+
+
+
+.name{
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    transition: 5s;
+    animation-duration: infinite;
+}
+
+.name:hover{
+    align-items: center;
+    justify-items: center;
+    name: rotate(180deg);
+}

@@ -1,0 +1,45 @@
+/* Contact Form Assignment */
+
+.div1{
+    background-color: rgb(255, 211, 154);
+    border: 50px;
+    padding: 0% 20px 20px 20px;
+    margin: 0px;
+    border: 15px solid rgb(125, 125, 125);
+    
+}
+
+.div2{
+    background-color: brown;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    text-align: center;
+    font-size: 70px;
+    position: center;
+    margin-right: 0px;
+}
+
+.name, .email, .subject, .message{
+    margin-left: 0px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    padding: 3%;
+    text-align: left;
+    height: 10px;
+    width: 862px;
+    font-size: 20px;
+    position: center;
+}
+
+.submit{
+    background-color: rgb(255, 217, 0);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin: 0px;
+}
